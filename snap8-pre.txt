@@ -1,0 +1,21 @@
+2026-10-01 20:55:53
+cmdline: BOOT_IMAGE=/@boot/vmlinuz-7.1.13+deb13-amd64 root=UUID=11653b5c-39d0-4bf7-a679-333dc12668ae ro rootflags=subvol=@ loglevel=3 splash vt.global_cursor_default=0
+=== ACPI override in dmesg
+[    0.005583] ACPI: Table Upgrade: override [SSDT-SaSsdt- SaSsdt ]
+[    0.005584] ACPI: SSDT 0x0000000044AEF000 Physical table override, new table: 0x000000003E7DE000
+[    0.005586] ACPI: SSDT 0x000000003E7DE000 002BE7 (v02 SaSsdt SaSsdt   00003001 INTL 20250404)
+SSDT4 OEM rev: 0x00003001
+nvme simple suspend: 1
+usb mass storage: 0
+charge_now=3106000 ac=0
+slp_s0=0 total_hw_sleep=0 last_hw_sleep=0
+pmc0   Substate       Residency
+         S0i2.0               0
+         S0i3.0               0
+Package C2 : 61148015
+Package C3 : 36009
+Package C6 : 0
+Package C7 : 0
+Package C8 : 0
+Package C9 : 0
+Package C10 : 0

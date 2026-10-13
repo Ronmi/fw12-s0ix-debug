@@ -1,0 +1,8 @@
+2026-10-01 19:14:10
+kprobe_events:
+p:s0w/sleepst acpi_pm_device_sleep_state dev=+0(+0(%di)):string dmax=%dx:s32
+r24:s0w/sleepst_ret acpi_pm_device_sleep_state ret=$retval:s32
+charge_now=3692000 ac=0
+slp_s0=0
+Package C6 : 0
+Package C10 : 0

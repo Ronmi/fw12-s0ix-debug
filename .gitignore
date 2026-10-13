@@ -1,0 +1,14 @@
+# Kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+.*.cmd
+Module.symvers
+modules.order
+
+# Compiled AML; regenerate with iasl (rd3c_method.h is the committed form)
+*.aml
+
+# initrd ACPI override built from ssdt4.aml
+*.cpio

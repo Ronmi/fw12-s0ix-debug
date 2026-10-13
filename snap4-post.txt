@@ -1,0 +1,40 @@
+2026-10-01 18:26:54
+cat: '/sys/bus/pci/devices/0000:00:04.0/power/wakeup': 沒有此一檔案或目錄
+00:04.0 control=on status=active state=D0 wakeup=
+00:06.0 control=auto status=active state=D0 wakeup=disabled
+cat: '/sys/bus/pci/devices/0000:00:08.0/power/wakeup': 沒有此一檔案或目錄
+00:08.0 control=auto status=suspended state=D0 wakeup=
+cat: '/sys/bus/pci/devices/0000:00:0a.0/power/wakeup': 沒有此一檔案或目錄
+00:0a.0 control=auto status=active state=D0 wakeup=
+01:00.0 control=on status=active state=D0 wakeup=disabled
+charge_now=3843000 ac=0
+slp_s0=0 total_hw_sleep=0
+pmc0   Substate       Residency
+         S0i2.0               0
+         S0i3.0               0
+Package C2 : 318005709
+Package C3 : 1879267667
+Package C6 : 0
+Package C7 : 0
+Package C8 : 0
+Package C9 : 0
+Package C10 : 0
+=== PCI PM during last suspend
+[ 1451.832662] PM: suspend entry (s2idle)
+[ 1452.085549] i801_smbus 0000:00:1f.4: PCI PM: Suspend power state: D0
+[ 1452.085552] i801_smbus 0000:00:1f.4: PCI PM: Skipped
+[ 1452.094622] snd_hda_intel 0000:00:1f.3: PCI PM: Suspend power state: D3hot
+[ 1452.099551] mei_me 0000:00:16.0: PCI PM: Suspend power state: D3hot
+[ 1452.102444] xhci_hcd 0000:00:14.0: PCI PM: Suspend power state: D3hot
+[ 1452.103450] nvme 0000:01:00.0: PCI PM: Suspend power state: D3hot
+[ 1452.103527] intel-lpss 0000:00:19.0: PCI PM: Suspend power state: D3hot
+[ 1452.103991] iwlwifi 0000:00:14.3: PCI PM: Suspend power state: D3hot
+[ 1452.104552] intel-lpss 0000:00:15.0: PCI PM: Suspend power state: D3hot
+[ 1452.106217] intel-lpss 0000:00:15.1: PCI PM: Suspend power state: D3hot
+[ 1452.106228] xhci_hcd 0000:00:0d.0: PCI PM: Suspend power state: D3cold
+[ 1452.106333] i915 0000:00:02.0: PCI PM: Suspend power state: D3hot
+[ 1452.112688] pcieport 0000:00:06.0: PCI PM: Suspend power state: D0
+[ 1452.112690] pcieport 0000:00:06.0: PCI PM: Skipped
+[ 1452.124819] proc_thermal_pci 0000:00:04.0: PCI PM: Suspend power state: D3hot
+[ 2471.495787] PM: Triggering wakeup from IRQ 9
+[ 2471.536725] intel_pmc_core INT33A1:00: CPU did not enter Package C10!!! (Package C10 cnt=0x0)

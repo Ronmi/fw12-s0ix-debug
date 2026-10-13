@@ -1,0 +1,63 @@
+2026-10-01 18:03:08
+00:06.0 wakeup=disabled
+charge_now=3939000 ac=0
+slp_s0=0 total_hw_sleep=0 last_hw_sleep=0
+pmc0   Substate       Residency
+         S0i2.0               0
+         S0i3.0               0
+Package C2 : 89530437
+Package C3 : 860981394
+Package C6 : 0
+Package C7 : 0
+Package C8 : 0
+Package C9 : 0
+Package C10 : 0
+=== kernel log
+10月 01 17:45:36 fw12 kernel: pci 0000:00:06.0: [8086:a74d] type 01 class 0x060400 PCIe Root Port
+10月 01 17:45:36 fw12 kernel: pci 0000:00:06.0: PCI bridge to [bus 01]
+10月 01 17:45:36 fw12 kernel: pci 0000:00:06.0:   bridge window [mem 0x50400000-0x504fffff]
+10月 01 17:45:36 fw12 kernel: pci 0000:00:06.0: PME# supported from D0 D3hot D3cold
+10月 01 17:45:36 fw12 kernel: pci 0000:00:06.0: PCI bridge to [bus 01]
+10月 01 17:45:36 fw12 kernel: pci 0000:00:06.0: PCI bridge to [bus 01]
+10月 01 17:45:36 fw12 kernel: pci 0000:00:06.0:   bridge window [mem 0x50400000-0x504fffff]
+10月 01 17:45:36 fw12 kernel: pci 0000:00:06.0: Adding to iommu group 3
+10月 01 17:45:36 fw12 kernel: pcieport 0000:00:06.0: PME: Signaling with IRQ 122
+10月 01 17:45:36 fw12 kernel: RAS: Correctable Errors collector initialized.
+10月 01 17:45:36 fw12 kernel: nvme 0000:01:00.0: platform quirk: setting simple suspend
+10月 01 17:45:36 fw12 kernel: nvme nvme0: pci function 0000:01:00.0
+10月 01 17:45:36 fw12 kernel: nvme nvme0: passthrough uses implicit buffer lengths
+10月 01 17:45:36 fw12 kernel: nvme nvme0: allocated 64 MiB host memory buffer (1 segment).
+10月 01 17:45:36 fw12 kernel: nvme nvme0: 12/0/0 default/read/poll queues
+10月 01 17:45:36 fw12 kernel:  nvme0n1: p1 p2 p3 p4 p5
+10月 01 17:45:36 fw12 systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+10月 01 17:45:36 fw12 systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+10月 01 17:45:36 fw12 systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+10月 01 17:45:37 fw12 kernel: ACPI BIOS Error (bug): Could not resolve symbol [^^RP28.PXSX.WIST], AE_NOT_FOUND (20251212/psargs-332)
+10月 01 17:45:37 fw12 kernel: ACPI Error: Aborting method \_SB.PC00.CNVW.IFUN due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+10月 01 17:45:37 fw12 kernel: ACPI Error: Aborting method \_SB.PC00.CNVW._DSM due to previous error (AE_NOT_FOUND) (20251212/psparse-529)
+10月 01 17:45:37 fw12 kernel: iwlwifi 0000:00:14.3: firmware: failed to load iwl-debug-yoyo.bin (-2)
+10月 01 17:45:37 fw12 kernel: iwlwifi 0000:00:14.3: firmware: failed to load iwl-debug-yoyo.bin (-2)
+10月 01 17:45:37 fw12 kernel: iwlwifi 0000:00:14.3: firmware: failed to load iwl-debug-yoyo.bin (-2)
+10月 01 17:45:37 fw12 kernel: ucsi_acpi USBC000:00: unknown error 256
+10月 01 17:45:37 fw12 kernel: ucsi_acpi USBC000:00: GET_CABLE_PROPERTY failed (-5)
+10月 01 17:45:37 fw12 kernel: ucsi_acpi USBC000:00: unknown error 256
+10月 01 17:45:37 fw12 kernel: ucsi_acpi USBC000:00: con1: failed to register partner alt modes (-5)
+10月 01 17:45:38 fw12 kernel: ucsi_acpi USBC000:00: unknown error 256
+10月 01 17:45:38 fw12 kernel: ucsi_acpi USBC000:00: GET_CABLE_PROPERTY failed (-5)
+10月 01 17:45:39 fw12 kernel: ucsi_acpi USBC000:00: unknown error 256
+10月 01 17:45:39 fw12 kernel: ucsi_acpi USBC000:00: con1: failed to register partner alt modes (-5)
+10月 01 17:45:39 fw12 kernel: block nvme0n1: No UUID available providing old NGUID
+10月 01 17:47:18 fw12 kernel: PM: suspend entry (s2idle)
+10月 01 18:01:38 fw12 kernel: PM: Triggering wakeup from IRQ 9
+10月 01 18:01:38 fw12 kernel: intel_pmc_core INT33A1:00: CPU did not enter Package C10!!! (Package C10 cnt=0x0)
+10月 01 18:01:38 fw12 kernel: intel_pmc_core INT33A1:00: Prev Package C2 cnt = 0x17a792e541, Current Package C2 cnt = 0x183a994e2f
+10月 01 18:01:38 fw12 kernel: intel_pmc_core INT33A1:00: Prev Package C3 cnt = 0x35ffe0d, Current Package C3 cnt = 0x1f364895018
+10月 01 18:01:38 fw12 kernel: intel_pmc_core INT33A1:00: Prev Package C6 cnt = 0x0, Current Package C6 cnt = 0x0
+10月 01 18:01:38 fw12 kernel: intel_pmc_core INT33A1:00: Prev Package C7 cnt = 0x0, Current Package C7 cnt = 0x0
+10月 01 18:01:38 fw12 kernel: intel_pmc_core INT33A1:00: Prev Package C8 cnt = 0x0, Current Package C8 cnt = 0x0
+10月 01 18:01:38 fw12 kernel: intel_pmc_core INT33A1:00: Prev Package C9 cnt = 0x0, Current Package C9 cnt = 0x0
+10月 01 18:01:38 fw12 kernel: intel_pmc_core INT33A1:00: Prev Package C10 cnt = 0x0, Current Package C10 cnt = 0x0
+10月 01 18:01:38 fw12 kernel: spd5118 14-0050: Failed to write b = 0: -6
+10月 01 18:01:38 fw12 kernel: spd5118 14-0050: PM: failed to resume async: error -6
+10月 01 18:01:38 fw12 kernel: nvme nvme0: 12/0/0 default/read/poll queues
+10月 01 18:01:38 fw12 kernel: PM: suspend exit

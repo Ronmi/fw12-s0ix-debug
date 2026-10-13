@@ -1,0 +1,41 @@
+2026-10-01 19:09:52
+GNA hw: Status: D0
+cat: '/sys/bus/pci/devices/0000:00:04.0/power/wakeup': 沒有此一檔案或目錄
+00:04.0 control=on status=active state=D0 wakeup=
+00:06.0 control=auto status=active state=D0 wakeup=disabled
+cat: '/sys/bus/pci/devices/0000:00:08.0/power/wakeup': 沒有此一檔案或目錄
+00:08.0 control=auto status=suspended state=D0 wakeup=
+cat: '/sys/bus/pci/devices/0000:00:0a.0/power/wakeup': 沒有此一檔案或目錄
+00:0a.0 control=auto status=active state=D0 wakeup=
+01:00.0 control=on status=active state=D0 wakeup=disabled
+charge_now=3728000 ac=0
+slp_s0=0 total_hw_sleep=0
+pmc0   Substate       Residency
+         S0i2.0               0
+         S0i3.0               0
+Package C2 : 424844196
+Package C3 : 4223506191
+Package C6 : 0
+Package C7 : 0
+Package C8 : 0
+Package C9 : 0
+Package C10 : 0
+=== PCI PM during last suspend
+[ 2692.395256] PM: suspend entry (s2idle)
+[ 2692.716511] i801_smbus 0000:00:1f.4: PCI PM: Suspend power state: D0
+[ 2692.716545] i801_smbus 0000:00:1f.4: PCI PM: Skipped
+[ 2692.725154] snd_hda_intel 0000:00:1f.3: PCI PM: Suspend power state: D3hot
+[ 2692.728894] xhci_hcd 0000:00:0d.0: PCI PM: Suspend power state: D3cold
+[ 2692.729432] mei_me 0000:00:16.0: PCI PM: Suspend power state: D3hot
+[ 2692.733425] nvme 0000:01:00.0: PCI PM: Suspend power state: D3hot
+[ 2692.733479] intel-lpss 0000:00:15.1: PCI PM: Suspend power state: D3hot
+[ 2692.733491] xhci_hcd 0000:00:14.0: PCI PM: Suspend power state: D3hot
+[ 2692.734094] iwlwifi 0000:00:14.3: PCI PM: Suspend power state: D3hot
+[ 2692.734152] intel-lpss 0000:00:15.0: PCI PM: Suspend power state: D3hot
+[ 2692.734927] intel-lpss 0000:00:19.0: PCI PM: Suspend power state: D3hot
+[ 2692.737582] i915 0000:00:02.0: PCI PM: Suspend power state: D3hot
+[ 2692.743889] pcieport 0000:00:06.0: PCI PM: Suspend power state: D0
+[ 2692.743891] pcieport 0000:00:06.0: PCI PM: Skipped
+[ 2692.756043] proc_thermal_pci 0000:00:04.0: PCI PM: Suspend power state: D3hot
+[ 5039.499641] PM: Triggering wakeup from IRQ 9
+[ 5039.540235] intel_pmc_core INT33A1:00: CPU did not enter Package C10!!! (Package C10 cnt=0x0)

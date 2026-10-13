@@ -1,0 +1,123 @@
+2026-10-01 19:23:39
+charge_now=3668000 ac=0
+slp_s0=0
+Package C6 : 0
+Package C10 : 0
+=== trace
+   5333.276080: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:0d.0" dmax=4
+   5333.276310: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5333.276327: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:15.1" dmax=4
+   5333.276328: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5333.294684: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:19.0" dmax=4
+   5333.294691: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5333.420335: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:1f.3" dmax=4
+   5333.420361: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5333.420364: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:0d.0" dmax=4
+   5333.420598: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5333.423839: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:15.1" dmax=4
+   5333.423841: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:19.0" dmax=4
+   5333.423842: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:15.0" dmax=4
+   5333.423843: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5333.423845: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5333.423845: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5333.424606: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:14.0" dmax=4
+   5333.424705: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5333.424855: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:14.3" dmax=4
+   5333.424886: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5333.424903: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:01:00.0" dmax=4
+   5333.424958: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5333.432962: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:02.0" dmax=4
+   5333.432964: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5333.451282: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:06.0" dmax=4
+   5333.451310: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=0
+   5867.869800: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:1f.3" dmax=4
+   5867.869830: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5867.871684: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:14.3" dmax=4
+   5867.871715: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5867.871718: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:14.0" dmax=4
+   5867.871726: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5867.871728: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:0d.0" dmax=4
+   5867.871872: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5867.871874: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:06.0" dmax=4
+   5867.871903: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=0
+   5867.936294: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:0d.0" dmax=4
+   5867.936415: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5867.936417: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:0d.0" dmax=4
+   5867.936443: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5868.736306: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:15.0" dmax=4
+   5868.736313: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5868.736317: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:15.1" dmax=4
+   5868.736323: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5868.837122: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:19.0" dmax=4
+   5868.837132: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5870.393867: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:14.0" dmax=4
+   5870.393966: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5870.393972: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:14.0" dmax=4
+   5870.394000: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5870.844766: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:19.0" dmax=4
+   5870.844771: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5880.810339: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:1f.3" dmax=4
+   5880.810367: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5880.810369: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:1f.3" dmax=4
+   5880.810374: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=3
+   5882.693237: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:15.0" dmax=4
+   5882.693242: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   5883.997545: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:15.0" dmax=4
+   5883.997552: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+=== PCI PM during last suspend
+[ 5333.401785] nvme 0000:01:00.0: save config 0x00: 0x50302646
+[ 5333.401929] nvme 0000:01:00.0: save config 0x04: 0x00100002
+[ 5333.402108] nvme 0000:01:00.0: save config 0x08: 0x01080203
+[ 5333.402267] nvme 0000:01:00.0: save config 0x0c: 0x00000010
+[ 5333.402429] nvme 0000:01:00.0: save config 0x10: 0x50400004
+[ 5333.402569] nvme 0000:01:00.0: save config 0x14: 0x00000000
+[ 5333.402729] nvme 0000:01:00.0: save config 0x18: 0x00000000
+[ 5333.402888] nvme 0000:01:00.0: save config 0x1c: 0x00000000
+[ 5333.403046] nvme 0000:01:00.0: save config 0x20: 0x00000000
+[ 5333.403206] nvme 0000:01:00.0: save config 0x24: 0x00000000
+[ 5333.403364] nvme 0000:01:00.0: save config 0x28: 0x00000000
+[ 5333.403532] nvme 0000:01:00.0: save config 0x2c: 0x50302646
+[ 5333.403686] nvme 0000:01:00.0: save config 0x30: 0x00000000
+[ 5333.403844] nvme 0000:01:00.0: save config 0x34: 0x00000040
+[ 5333.404006] nvme 0000:01:00.0: save config 0x38: 0x00000000
+[ 5333.404164] nvme 0000:01:00.0: save config 0x3c: 0x000001ff
+[ 5333.422219] nvme 0000:01:00.0: PCI PM: Suspend power state: D3hot
+[ 5333.431658] pcieport 0000:00:06.0: save config 0x00: 0xa74d8086
+[ 5333.431687] pcieport 0000:00:06.0: save config 0x04: 0x00100507
+[ 5333.431719] pcieport 0000:00:06.0: save config 0x08: 0x06040001
+[ 5333.431752] pcieport 0000:00:06.0: save config 0x0c: 0x00810010
+[ 5333.431785] pcieport 0000:00:06.0: save config 0x10: 0x00000000
+[ 5333.431817] pcieport 0000:00:06.0: save config 0x14: 0x00000000
+[ 5333.431850] pcieport 0000:00:06.0: save config 0x18: 0x00010100
+[ 5333.431883] pcieport 0000:00:06.0: save config 0x1c: 0x000000f0
+[ 5333.431916] pcieport 0000:00:06.0: save config 0x20: 0x50405040
+[ 5333.431949] pcieport 0000:00:06.0: save config 0x24: 0x0001fff1
+[ 5333.431982] pcieport 0000:00:06.0: save config 0x28: 0x00000000
+[ 5333.432015] pcieport 0000:00:06.0: save config 0x2c: 0x00000000
+[ 5333.432048] pcieport 0000:00:06.0: save config 0x30: 0x00000000
+[ 5333.432067] pcieport 0000:00:06.0: save config 0x34: 0x00000040
+[ 5333.432086] pcieport 0000:00:06.0: save config 0x38: 0x00000000
+[ 5333.432105] pcieport 0000:00:06.0: save config 0x3c: 0x000204ff
+[ 5333.432295] pcieport 0000:00:06.0: PCI PM: Suspend power state: D0
+[ 5333.432297] pcieport 0000:00:06.0: PCI PM: Skipped
+[ 5867.681420] intel_pmc_core INT33A1:00: CPU did not enter Package C10!!! (Package C10 cnt=0x0)
+[ 5867.685555] pcieport 0000:00:06.0: restore config 0x2c: 0x00000000 -> 0x00000000
+[ 5867.685564] pcieport 0000:00:06.0: restore config 0x28: 0x00000000 -> 0x00000000
+[ 5867.685572] pcieport 0000:00:06.0: restore config 0x24: 0x0001fff1 -> 0x0001fff1
+[ 5867.689915] nvme 0000:01:00.0: enabling bus mastering
+[ 5867.690040] nvme 0000:01:00.0: save config 0x00: 0x50302646
+[ 5867.690045] nvme 0000:01:00.0: save config 0x04: 0x00100406
+[ 5867.690048] nvme 0000:01:00.0: save config 0x08: 0x01080203
+[ 5867.690051] nvme 0000:01:00.0: save config 0x0c: 0x00000010
+[ 5867.690054] nvme 0000:01:00.0: save config 0x10: 0x50400004
+[ 5867.690056] nvme 0000:01:00.0: save config 0x14: 0x00000000
+[ 5867.690100] nvme 0000:01:00.0: save config 0x18: 0x00000000
+[ 5867.690103] nvme 0000:01:00.0: save config 0x1c: 0x00000000
+[ 5867.690105] nvme 0000:01:00.0: save config 0x20: 0x00000000
+[ 5867.690107] nvme 0000:01:00.0: save config 0x24: 0x00000000
+[ 5867.690109] nvme 0000:01:00.0: save config 0x28: 0x00000000
+[ 5867.690152] nvme 0000:01:00.0: save config 0x2c: 0x50302646
+[ 5867.690207] nvme 0000:01:00.0: save config 0x30: 0x00000000
+[ 5867.690211] nvme 0000:01:00.0: save config 0x34: 0x00000040
+[ 5867.690213] nvme 0000:01:00.0: save config 0x38: 0x00000000
+[ 5867.690216] nvme 0000:01:00.0: save config 0x3c: 0x000001ff

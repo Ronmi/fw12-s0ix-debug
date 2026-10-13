@@ -1,0 +1,22 @@
+2026-10-01 18:30:03
+GNA hw: Status: D3
+cat: '/sys/bus/pci/devices/0000:00:04.0/power/wakeup': 沒有此一檔案或目錄
+00:04.0 control=on status=active state=D0 wakeup=
+00:06.0 control=auto status=active state=D0 wakeup=disabled
+cat: '/sys/bus/pci/devices/0000:00:08.0/power/wakeup': 沒有此一檔案或目錄
+00:08.0 control=auto status=suspended state=D0 wakeup=
+cat: '/sys/bus/pci/devices/0000:00:0a.0/power/wakeup': 沒有此一檔案或目錄
+00:0a.0 control=auto status=active state=D0 wakeup=
+01:00.0 control=on status=active state=D0 wakeup=disabled
+charge_now=3815000 ac=0
+slp_s0=0 total_hw_sleep=0
+pmc0   Substate       Residency
+         S0i2.0               0
+         S0i3.0               0
+Package C2 : 406510216
+Package C3 : 1879269861
+Package C6 : 0
+Package C7 : 0
+Package C8 : 0
+Package C9 : 0
+Package C10 : 0

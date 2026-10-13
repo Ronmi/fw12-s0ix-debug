@@ -1,0 +1,42 @@
+2026-10-01 22:50:19
+charge_now=2778000 ac=0
+slp_s0=2242981224 total_hw_sleep=2242981224 last_hw_sleep=2242981224
+pmc0   Substate       Residency
+         S0i2.0           11376
+         S0i3.0      2242771597
+Package C2 : 90171612
+Package C3 : 1041004
+Package C6 : 1946860
+Package C7 : 0
+Package C8 : 67573
+Package C9 : 0
+Package C10 : 2245029484
+=== ACPI D-state decisions (00:06.0 / 01:00.0)
+   212.379126: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:01:00.0" dmax=4
+   212.380459: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   212.405549: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:06.0" dmax=4
+   212.405573: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+   2459.948494: sleepst: (acpi_pm_device_sleep_state+0x4/0x190) dev="0000:00:06.0" dmax=4
+   2459.948525: sleepst_ret: (acpi_pci_choose_state+0x2b/0x40 <- acpi_pm_device_sleep_state) ret=4
+=== last suspend
+[  211.918363] PM: suspend entry (s2idle)
+[  212.351421] PM: suspend of devices complete after 167.790 msecs
+[  212.358374] i801_smbus 0000:00:1f.4: PCI PM: Suspend power state: D0
+[  212.358381] i801_smbus 0000:00:1f.4: PCI PM: Skipped
+[  212.367762] snd_hda_intel 0000:00:1f.3: PCI PM: Suspend power state: D3hot
+[  212.371772] mei_me 0000:00:16.0: PCI PM: Suspend power state: D3hot
+[  212.372198] iwlwifi 0000:00:14.3: PCI PM: Suspend power state: D3hot
+[  212.373263] intel-lpss 0000:00:15.1: PCI PM: Suspend power state: D3hot
+[  212.373345] xhci_hcd 0000:00:14.0: PCI PM: Suspend power state: D3hot
+[  212.374737] intel-lpss 0000:00:19.0: PCI PM: Suspend power state: D3hot
+[  212.376039] intel-lpss 0000:00:15.0: PCI PM: Suspend power state: D3hot
+[  212.376158] nvme 0000:01:00.0: PCI PM: Suspend power state: D3cold
+[  212.376550] xhci_hcd 0000:00:0d.0: PCI PM: Suspend power state: D3cold
+[  212.380080] i915 0000:00:02.0: PCI PM: Suspend power state: D3hot
+[  212.398398] proc_thermal_pci 0000:00:04.0: PCI PM: Suspend power state: D3hot
+[  212.418228] pcieport 0000:00:06.0: PCI PM: Suspend power state: D3cold
+[  212.633874] PM: suspend-to-idle
+[ 2459.438340] PM: Triggering wakeup from IRQ 9
+[ 2459.759983] spd5118 14-0050: PM: failed to resume async: error -6
+[ 2459.799102] nvme nvme0: 12/0/0 default/read/poll queues
+[ 2460.122384] PM: suspend exit

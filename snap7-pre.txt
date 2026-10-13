@@ -1,0 +1,16 @@
+2026-10-01 19:35:04
+nvme.noacpi=Y
+simple suspend msgs: 0
+usb mass storage: 0
+charge_now=3547000 ac=0
+slp_s0=0 total_hw_sleep=0
+pmc0   Substate       Residency
+         S0i2.0               0
+         S0i3.0               0
+Package C2 : 37081498
+Package C3 : 22
+Package C6 : 0
+Package C7 : 0
+Package C8 : 0
+Package C9 : 0
+Package C10 : 0

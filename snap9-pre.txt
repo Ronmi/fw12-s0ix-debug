@@ -1,0 +1,23 @@
+2026-10-01 22:12:14
+cmdline: BOOT_IMAGE=/@boot/vmlinuz-7.1.13+deb13-amd64 root=UUID=11653b5c-39d0-4bf7-a679-333dc12668ae ro rootflags=subvol=@ loglevel=3 splash vt.global_cursor_default=0
+=== ACPI override (should be none)
+=== module
+fw12_rtd3_fix          12288  0
+[   13.820986] fw12_rtd3_fix: loading out-of-tree module taints kernel.
+[   13.820991] fw12_rtd3_fix: module verification failed: signature and/or required key missing - tainting kernel
+[   13.844289] fw12_rtd3_fix: RD3C 1 -> 2, NVMe root port RTD3 enabled (SD2P=0x908000e SD2R=0x90c0014)
+SSDT4 OEM rev: 0x00003000
+nvme simple suspend: 1
+usb mass storage: 1
+charge_now=2810000 ac=0
+slp_s0=0 total_hw_sleep=0 last_hw_sleep=0
+pmc0   Substate       Residency
+         S0i2.0               0
+         S0i3.0               0
+Package C2 : 75293509
+Package C3 : 55080
+Package C6 : 0
+Package C7 : 0
+Package C8 : 0
+Package C9 : 0
+Package C10 : 0

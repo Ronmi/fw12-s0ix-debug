@@ -1,0 +1,43 @@
+2026-10-01 20:41:14
+charge_now=3259000 ac=0
+slp_s0=0 total_hw_sleep=0
+pmc0   Substate       Residency
+         S0i2.0               0
+         S0i3.0               0
+Package C2 : 3959907535
+Package C3 : 22
+Package C6 : 0
+Package C7 : 0
+Package C8 : 0
+Package C9 : 0
+Package C10 : 0
+=== last suspend
+[  107.764452] PM: suspend entry (s2idle)
+[  108.187610] PM: suspend of devices complete after 163.821 msecs
+[  108.192425] nvme 0000:01:00.0: PCI PM: Suspend power state: D0
+[  108.192433] nvme 0000:01:00.0: PCI PM: Skipped
+[  108.194967] i801_smbus 0000:00:1f.4: PCI PM: Suspend power state: D0
+[  108.194973] i801_smbus 0000:00:1f.4: PCI PM: Skipped
+[  108.204488] snd_hda_intel 0000:00:1f.3: PCI PM: Suspend power state: D3hot
+[  108.208951] mei_me 0000:00:16.0: PCI PM: Suspend power state: D3hot
+[  108.209328] xhci_hcd 0000:00:14.0: PCI PM: Suspend power state: D3hot
+[  108.209601] intel-lpss 0000:00:15.1: PCI PM: Suspend power state: D3hot
+[  108.212118] intel-lpss 0000:00:15.0: PCI PM: Suspend power state: D3hot
+[  108.212386] iwlwifi 0000:00:14.3: PCI PM: Suspend power state: D3hot
+[  108.213340] intel-lpss 0000:00:19.0: PCI PM: Suspend power state: D3hot
+[  108.213686] xhci_hcd 0000:00:0d.0: PCI PM: Suspend power state: D3cold
+[  108.216679] i915 0000:00:02.0: PCI PM: Suspend power state: D3hot
+[  108.222558] pcieport 0000:00:06.0: PCI PM: Suspend power state: D0
+[  108.222562] pcieport 0000:00:06.0: PCI PM: Skipped
+[  108.234663] proc_thermal_pci 0000:00:04.0: PCI PM: Suspend power state: D3hot
+[  108.452777] PM: suspend-to-idle
+[ 3990.708273] PM: Triggering wakeup from IRQ 9
+[ 3990.750070] intel_pmc_core INT33A1:00: CPU did not enter Package C10!!! (Package C10 cnt=0x0)
+[ 3990.750075] intel_pmc_core INT33A1:00: Prev Package C2 cnt = 0x1744de4378, Current Package C2 cnt = 0x8e78c1debde
+[ 3990.750078] intel_pmc_core INT33A1:00: Prev Package C3 cnt = 0xdff2, Current Package C3 cnt = 0xdff2
+[ 3990.750079] intel_pmc_core INT33A1:00: Prev Package C6 cnt = 0x0, Current Package C6 cnt = 0x0
+[ 3990.750081] intel_pmc_core INT33A1:00: Prev Package C7 cnt = 0x0, Current Package C7 cnt = 0x0
+[ 3990.750083] intel_pmc_core INT33A1:00: Prev Package C8 cnt = 0x0, Current Package C8 cnt = 0x0
+[ 3990.750084] intel_pmc_core INT33A1:00: Prev Package C9 cnt = 0x0, Current Package C9 cnt = 0x0
+[ 3990.750093] intel_pmc_core INT33A1:00: Prev Package C10 cnt = 0x0, Current Package C10 cnt = 0x0
+[ 3991.837958] PM: suspend exit
